@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.quote{
+    font-family: Arial;
+    font-weight: normal;
+    margin:0;
+}
+
+.login{
+    width: 396px;   
+    margin: 30px auto;
+    box-shadow: 0 0 5px 3px rgba(30, 30, 30, 0.1);
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    
+}
+
+input{
+    display: block;
+    width: 365px;
+    outline: none;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1); 
+    margin-top: 15px;  
+}
+
+.btn{
+    width: 100%;
+    margin-top: 15px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #1877f2;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.forgot{
+    display: block;
+    width: 100%;
+    margin: 15px 0;
+    
+    text-decoration: none;
+   
+    font-family: Helvetica;
+    color-scheme: #1877f2;
+    font-size: 14px;
+    transition: 0.2s;
+       
+}
+
+.forgot:hover{
+    text-decoration: underline;
+}
+
+hr{
+    margin: 25px 0;
+    opacity: 0.2;
+}
+
+.btn2{
+    display: block;
+    margin: 15px auto;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #42b72a;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn2:hover{
+    background-color: #3faa29;
+}
+
+.create{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.create:hover{
+    text-decoration: underline;
+}
